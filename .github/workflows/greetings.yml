@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: '이슈를 올려주셔서 대단히 감사합니다^^'
+        pr-message: 'PR 까지 해주시다니...역시 짱짱맨입니당! 앞으로 잘 부탁드립니다~!'
