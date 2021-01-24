@@ -1,0 +1,8 @@
+{
+    "rootPath": "https://www.bbc.co.uk/learningenglish/english/features/",
+    "lectures": [
+        "the-english-we-speak",
+        "6-minute-english"
+    ],
+    "itemUrlFormat": "ep-YYMMDD"
+}
