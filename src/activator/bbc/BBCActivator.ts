@@ -31,7 +31,7 @@ export class BBCActivator extends BaseActivator {
         };
         this._articles.push(article);
       } catch (e) {
-        console.error('I cannot find a page.');
+        console.info('cannot find a page.');
       }
     });
   };
